@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: sans-serif;}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 40px;
+    margin-inline: 60px;
+text-transform: capitalize;
+}
+
+ul{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+li{ color: black;
+
+    margin-inline: 10px;
+}
+.icons i{
+    margin-inline: 15px;
+}
+#home{
+    display: flex;
+    height: 100vh;
+}
+.home-content{ width: 40%;
+    background-color: #E7FAFE;
+    padding-top:100px ;
+    padding-left: 30px; ;
+}
+.home-img{
+    width: 60%;
+    background-image: url(images/Mask\ Group.png);
+    background-size: cover;
+}
+#home h1{
+  
+    font-family: Inter;
+font-size: 50px;
+font-weight: 500;
+line-height: 77.45px;
+letter-spacing: -0.04em;
+text-align: left;
+
+}
+#home p{
+    
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+    
+}
+#home button{
+    margin-top: 150px;
+    padding-block: 10px;
+    padding-inline: 30px;
+    background-color: black;
+    color: white;
+}
+
+.categories-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#categories{
+    padding-inline: 50px;
+    padding-block: 100px;
+}
+.categories-content{ 
+    display: flex;
+    justify-content: space-between;
+}
+#categories img{
+    width:  150px;
+}
+.categories-header button{
+background-color: #E7FAFE;
+font-weight: 300px;
+border-radius: 10px;
+border-color: transparent;
+padding: 10px;
+}
+#recipes{
+    margin-block: 50px;
+    margin-inline: 30px;
+}
+.recipes-header{
+text-align: center;}
+.recipes-header h1{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 400;
+line-height: 58.09px;
+letter-spacing: -0.04em;
+padding: 30px;
+}
+.recipes-header p{
+    color: gray;
+    padding-inline: 200px;
+    padding-bottom: 100px;
+}
+
+.recipestable1 div{ margin:30px ;
+background-color: #E7FAFE;
+    border-radius: 20px;
+    width: 250px;
+    line-height: 20px;
+}
+.recipestable img{
+width: 250px;
+}
+.recipestable1 {
+    display: flex;
+    justify-content: center;
+}
+.recipestable1 h3{
+padding-block: 20px;
+}
+.recipestable1 i{
+padding-inline: 10px;}
+
+.categories-content button{
+    border-radius:20px ;
+    border-color:transparent ;
+    height: 175px;
+}
